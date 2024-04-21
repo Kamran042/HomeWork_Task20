@@ -1,0 +1,97 @@
+.cardPr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rightKorzina{
+    position: fixed;
+    top: 0px;
+    right: -400px;
+    width: 400px;
+    height: 100vh;
+    background-color: #212529c6;
+    padding: 20px 20px 20px 20px ;
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightKorzina_right{
+    right: 0px !important;
+}
+
+.rightKorzina i {
+    font-size: 22px;
+    color: white;
+}
+
+.rightKorzinaXXX{
+    cursor: pointer;
+}
+
+.card_sebet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border: 1px solid white;
+    padding:  10px;
+    margin-top: 10px;
+}
+
+.card_sebet img{
+    width: 60px;
+    height: 60px;
+}
+
+.card_sebet__btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding:  5px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+
+.card_sebet__btns p{
+    margin: 0;
+    font-size: 17px;
+}
+
+.card_sebet span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card_sebet__btns button{
+    border: none;
+    background:none;
+    color: black;
+}
+
+nav{
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.korzinaProducts{
+    height: 75vh;
+    margin-top: 20px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.rightKorzina__total_price{
+    background-color: white;
+    padding: 20px;
+    border-radius:30px
+}
